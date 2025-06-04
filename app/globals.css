@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 40% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 40% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 40% 15%;
+    --primary: 210 65% 20%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 210 40% 15%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 210 40% 45%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 210 40% 15%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 210 40% 90%;
+    --input: 210 40% 90%;
+    --ring: 210 65% 20%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 210 40% 8%;
+    --foreground: 0 0% 95%;
+    --card: 210 40% 10%;
+    --card-foreground: 0 0% 95%;
+    --popover: 210 40% 10%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 210 65% 20%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 210 40% 15%;
+    --secondary-foreground: 0 0% 95%;
+    --muted: 210 40% 15%;
+    --muted-foreground: 210 40% 65%;
+    --accent: 210 40% 15%;
+    --accent-foreground: 0 0% 95%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 210 40% 20%;
+    --input: 210 40% 20%;
+    --ring: 210 65% 20%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-light tracking-wide;
+  }
+
+  .elegant-text {
+    @apply font-light tracking-wide leading-relaxed;
+  }
+
+  .elegant-heading {
+    @apply font-extralight tracking-wider;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .card-elegant {
+    @apply border border-border/50 bg-card shadow-sm;
+    border-radius: 4px;
+  }
+
+  .button-elegant {
+    border-radius: 2px;
+    @apply font-normal tracking-wide;
+  }
+}
