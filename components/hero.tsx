@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <Image src="/images/banner.jpg" alt="Duke University Campus" fill className="object-cover" priority />
+        <Image src="/images/hero-arches.jpg" alt="Duke University Campus" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-primary-900/50" />
       </div>
 

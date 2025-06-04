@@ -6,9 +6,7 @@ export function About() {
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-light mb-6 text-primary-800 tracking-wide">
-              About Duke Venture Group
-            </h2>
+            <h2 className="text-3xl md:text-4xl font-light mb-6 tracking-wide">About Duke Venture Group</h2>
             <div className="space-y-4 text-lg leading-relaxed font-light tracking-wide">
               <p>
                 Duke Venture Group (DVG) is Duke University's premier, student-run venture capital organization—offering
@@ -25,10 +23,10 @@ export function About() {
 
           <div className="relative">
             <Image
-              src="/placeholder.svg?height=500&width=600"
-              alt="DVG Team"
+              src="/images/about-dvg-new.jpg"
+              alt="Duke University Campus at Evening"
               width={600}
-              height={500}
+              height={400}
               className="shadow-lg"
               style={{ borderRadius: "4px" }}
             />

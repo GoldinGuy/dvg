@@ -54,7 +54,7 @@
   h4,
   h5,
   h6 {
-    @apply font-light tracking-wide;
+    @apply font-cinzel font-light tracking-wide text-primary-800 dark:text-white;
   }
 
   .elegant-text {
@@ -62,7 +62,7 @@
   }
 
   .elegant-heading {
-    @apply font-extralight tracking-wider;
+    @apply font-cinzel font-extralight tracking-wider;
   }
 }
 

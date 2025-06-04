@@ -2,7 +2,7 @@ export function Stats() {
   const stats = [
     {
       number: "25",
-      label: "New Members Per Cycle",
+      label: "New Analysts Per Cycle",
       description: "Highly selective admission process",
     },
     {
@@ -21,7 +21,7 @@ export function Stats() {
     <section className="py-20 bg-primary-800 text-white">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide">DVG by the Numbers</h2>
+          <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide text-white">DVG by the Numbers</h2>
           <p className="text-xl opacity-90 font-light tracking-wide">
             Building the next generation of venture capital leaders
           </p>

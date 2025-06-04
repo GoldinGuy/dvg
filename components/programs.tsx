@@ -5,7 +5,7 @@ import Link from "next/link"
 export function Programs() {
   const programs = [
     {
-      title: "DVG VC Fellows",
+      title: "DVG Analyst",
       description:
         "Elite program combining rigorous education with hands-on startup evaluation and investment thesis development.",
       features: [
@@ -16,7 +16,7 @@ export function Programs() {
       ],
     },
     {
-      title: "DVG Opportunities",
+      title: "DVG Fellowship",
       description:
         "Exclusive access to networking events, speaker series, and career development opportunities in venture capital.",
       features: [
@@ -32,7 +32,7 @@ export function Programs() {
     <section className="py-20">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-light mb-4 text-primary-800 tracking-wide">Our Programs</h2>
+          <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide">Our Programs</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-light tracking-wide">
             Comprehensive programs designed to provide real-world venture capital experience
           </p>
@@ -42,7 +42,7 @@ export function Programs() {
           {programs.map((program, index) => (
             <Card key={index} className="h-full card-elegant">
               <CardHeader>
-                <CardTitle className="text-2xl text-primary-800 font-light tracking-wide">{program.title}</CardTitle>
+                <CardTitle className="text-2xl font-light tracking-wide">{program.title}</CardTitle>
                 <CardDescription className="text-lg font-light">{program.description}</CardDescription>
               </CardHeader>
               <CardContent>

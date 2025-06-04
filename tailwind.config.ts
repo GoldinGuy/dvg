@@ -19,6 +19,9 @@ const config: Config = {
       },
     },
     extend: {
+      fontFamily: {
+        cinzel: ["var(--font-cinzel)"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

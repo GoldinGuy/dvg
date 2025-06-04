@@ -7,7 +7,7 @@ export function ProgramsSchedule() {
     { date: "9/15", event: "Application Deadline", time: "11:59 PM" },
     { date: "9/19", event: "Interest Meeting ⇨ VC Foundations Workshop #1: How to get into VC", time: "" },
     { date: "9/22, 9/23, 9/24", event: "Applicant Interviews (Invite only)", time: "" },
-    { date: "9/28", event: "General Body Meeting (Welcome New Members)", time: "3:00 PM" },
+    { date: "9/28", event: "General Body Meeting (Welcome New Analysts)", time: "3:00 PM" },
     { date: "10/2", event: "VC Foundations Workshop #2: Deal Sourcing & Accessing Founders", time: "6:30 PM" },
     { date: "10/16", event: "Speaker Series Event", time: "6:30 PM" },
     { date: "10/30", event: "VC Foundations Workshop #3: Building an Investment Thesis", time: "6:30 PM" },
@@ -23,9 +23,7 @@ export function ProgramsSchedule() {
     <section className="py-20">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-light mb-4 text-primary-800 tracking-wide">
-            Tentative Fall 2025 Schedule
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide">Tentative Fall 2025 Schedule</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-light tracking-wide mb-8">
             Through our collaboration with Duke Innovation and Entrepreneurship, our semester will be filled with
             in-depth workshops, extensive startup diligence, and the chance to compete nationally in VCIC (Venture
@@ -40,11 +38,11 @@ export function ProgramsSchedule() {
                 <div className="flex flex-col md:flex-row md:items-center gap-4">
                   <div className="flex items-center gap-3 md:w-32 flex-shrink-0">
                     <Calendar className="h-4 w-4 text-primary-600" />
-                    <span className="font-normal text-primary-800 tracking-wide">{item.date}</span>
+                    <span className="font-normal text-primary-800 dark:text-white tracking-wide">{item.date}</span>
                   </div>
 
                   <div className="flex-1">
-                    <h3 className="font-normal text-primary-800 tracking-wide mb-1">{item.event}</h3>
+                    <h3 className="font-normal text-primary-800 dark:text-white tracking-wide mb-1">{item.event}</h3>
                   </div>
 
                   {item.time && (
@@ -62,21 +60,21 @@ export function ProgramsSchedule() {
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
                 <Users className="h-8 w-8 text-primary-600 mx-auto mb-3" />
-                <h3 className="font-normal text-primary-800 tracking-wide mb-2">For Everyone</h3>
+                <h3 className="font-normal text-primary-800 dark:text-white tracking-wide mb-2">For Everyone</h3>
                 <p className="text-sm font-light text-muted-foreground">
                   Whether you're a founder, investor, or just curious about VC
                 </p>
               </div>
               <div className="text-center">
                 <Trophy className="h-8 w-8 text-primary-600 mx-auto mb-3" />
-                <h3 className="font-normal text-primary-800 tracking-wide mb-2">Skill Building</h3>
+                <h3 className="font-normal text-primary-800 dark:text-white tracking-wide mb-2">Skill Building</h3>
                 <p className="text-sm font-light text-muted-foreground">
                   Meaningful skills in sourcing, evaluating, and supporting startups
                 </p>
               </div>
               <div className="text-center">
                 <Calendar className="h-8 w-8 text-primary-600 mx-auto mb-3" />
-                <h3 className="font-normal text-primary-800 tracking-wide mb-2">Real Connections</h3>
+                <h3 className="font-normal text-primary-800 dark:text-white tracking-wide mb-2">Real Connections</h3>
                 <p className="text-sm font-light text-muted-foreground">Direct access to real investors and founders</p>
               </div>
             </div>
