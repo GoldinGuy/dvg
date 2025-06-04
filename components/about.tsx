@@ -16,14 +16,9 @@ export function About() {
                 strategic support of early-stage startups.
               </p>
               <p>
-                Launching Fall 2025, DVG operates at the intersection of entrepreneurship and finance, providing
-                students with unparalleled access to venture capitalists, real-world diligence processes, and the Duke
-                startup ecosystem.
-              </p>
-              <p>
-                By uniting Duke's world-class talent across finance, technology, and engineering, DVG is establishing
-                itself as the foremost undergraduate gateway to careers in venture capital, innovation, and
-                entrepreneurship leadership.
+                Through a partnership with Duke's Innovation and Entrepreneurship department, DVG operates at the
+                intersection of entrepreneurship and finance, providing students with unparalleled access to venture
+                capitalists, real-world diligence processes, and the Duke startup ecosystem.
               </p>
             </div>
           </div>

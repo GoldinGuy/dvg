@@ -5,32 +5,30 @@ import Link from "next/link"
 import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { ThemeToggle } from "@/components/theme-toggle"
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
   const navItems = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
     { name: "Programs", href: "/programs" },
     { name: "Members", href: "/members" },
     { name: "Recruitment", href: "/recruitment" },
-    { name: "FAQs", href: "/faqs" },
   ]
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
-          <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-s8QIgIYPbBvYrMapybbzsw3bS3D1V1.png"
-            alt="DVG Logo"
-            width={40}
-            height={40}
-            className="h-10 w-10"
-          />
-          <span className="text-xl font-light tracking-wide text-primary-800">Duke Venture Group</span>
+        <Link href="/" className="flex items-center space-x-3">
+          <div className="relative w-10 h-10">
+            <Image
+              src="/images/dvg-logo-transparent.png"
+              alt="DVG Logo"
+              fill
+              className="object-contain dark:brightness-0 dark:invert"
+            />
+          </div>
+          <span className="text-xl font-light tracking-wide text-primary-800 dark:text-white">Duke Venture Group</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -39,17 +37,15 @@ export function Navigation() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-sm font-normal tracking-wide transition-colors hover:text-primary-600"
+              className="text-sm font-normal tracking-wide transition-colors hover:text-primary-600 dark:hover:text-primary-400"
             >
               {item.name}
             </Link>
           ))}
-          <ThemeToggle />
         </div>
 
         {/* Mobile Navigation */}
         <div className="md:hidden flex items-center space-x-2">
-          <ThemeToggle />
           <Button variant="ghost" size="icon" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </Button>
@@ -64,7 +60,7 @@ export function Navigation() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="block py-2 text-sm font-normal tracking-wide transition-colors hover:text-primary-600"
+                className="block py-2 text-sm font-normal tracking-wide transition-colors hover:text-primary-600 dark:hover:text-primary-400"
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}
