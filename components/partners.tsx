@@ -25,11 +25,13 @@ export function Partners() {
   ]
 
   return (
-    <section className="py-20 bg-primary-800 text-white">
+    <section className="py-20 bg-white dark:bg-primary-800">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide text-white">Our Partners</h2>
-          <p className="text-xl opacity-90 font-light tracking-wide">
+          <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide text-primary-900 dark:text-white">
+            Our Partners
+          </h2>
+          <p className="text-xl text-primary-700 dark:text-white/90 font-light tracking-wide">
             Collaborating with leading organizations in venture capital and entrepreneurship
           </p>
         </div>
@@ -42,7 +44,7 @@ export function Partners() {
                   src={partner.logo || "/placeholder.svg"}
                   alt={partner.name}
                   fill
-                  className="object-contain opacity-90 hover:opacity-100 transition-opacity"
+                  className="object-contain opacity-80 hover:opacity-100 transition-opacity dark:brightness-0 dark:invert"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw"
                 />
               </div>

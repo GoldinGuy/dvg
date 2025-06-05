@@ -113,7 +113,7 @@ export function ExecutiveBoard() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-normal mb-2 tracking-wide">{member.name}</h3>
+              <h3 className="text-xl font-normal mb-2 tracking-wide text-primary-900 dark:text-white">{member.name}</h3>
               <p className="text-sm font-light text-primary-600 dark:text-primary-400 mb-4 tracking-wide">
                 {member.title}
               </p>
