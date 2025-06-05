@@ -1,6 +1,6 @@
-# Duke Venture Group Website
+# Duke Venture Group
 
-A modern, responsive website for Duke University's premier student-run venture capital organization, built with Next.js, TypeScript, and Tailwind CSS.
+A responsive website for Duke University's premier student-run venture capital organization, built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Stack
 
