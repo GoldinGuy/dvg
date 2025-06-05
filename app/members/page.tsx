@@ -1,5 +1,4 @@
 import { ExecutiveBoard } from "@/components/executive-board"
-import { GeneralBody } from "@/components/general-body"
 import { Footer } from "@/components/footer"
 
 export default function MembersPage() {
@@ -18,7 +17,6 @@ export default function MembersPage() {
       </section>
 
       <ExecutiveBoard />
-      <GeneralBody />
       <Footer />
     </>
   )

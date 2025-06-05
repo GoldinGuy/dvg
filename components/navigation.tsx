@@ -14,6 +14,7 @@ export function Navigation() {
     { name: "Programs", href: "/programs" },
     { name: "Members", href: "/members" },
     { name: "Recruitment", href: "/recruitment" },
+    { name: "Apply", href: "/recruitment" },
   ]
 
   return (

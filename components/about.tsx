@@ -6,7 +6,9 @@ export function About() {
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-light mb-6 tracking-wide">About Duke Venture Group</h2>
+            <h2 className="text-3xl md:text-4xl font-light mb-6 tracking-wide text-primary-900 dark:text-white">
+              About Duke Venture Group
+            </h2>
             <div className="space-y-4 text-lg leading-relaxed font-light tracking-wide">
               <p>
                 Duke Venture Group (DVG) is Duke University's premier, student-run venture capital organization—offering

@@ -23,7 +23,9 @@ export function ProgramsSchedule() {
     <section className="py-20">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide">Tentative Fall 2025 Schedule</h2>
+          <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide text-primary-900 dark:text-white">
+            Tentative Fall 2025 Schedule
+          </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-light tracking-wide mb-8">
             Through our collaboration with Duke Innovation and Entrepreneurship, our semester will be filled with
             in-depth workshops, extensive startup diligence, and the chance to compete nationally in VCIC (Venture

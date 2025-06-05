@@ -16,7 +16,7 @@ export function Programs() {
       ],
     },
     {
-      title: "DVG Fellowship",
+      title: "DVG Fellow",
       description:
         "Exclusive access to networking events, speaker series, and career development opportunities in venture capital.",
       features: [
@@ -32,7 +32,9 @@ export function Programs() {
     <section className="py-20">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide">Our Programs</h2>
+          <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide text-primary-900 dark:text-white">
+            Our Programs
+          </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-light tracking-wide">
             Comprehensive programs designed to provide real-world venture capital experience
           </p>

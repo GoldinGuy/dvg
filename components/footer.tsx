@@ -19,7 +19,7 @@ export function Footer() {
               </div>
               <span className="text-xl font-light tracking-wide">Duke Venture Group</span>
             </div>
-            <p className="text-gray-300 mb-4 font-light tracking-wide">
+            <p className="text-gray-300 mb-4 font-light tracking-wide text-sm">
               Duke University's premier, student-run venture capital organization cultivating the next generation of VC
               leaders.
             </p>
@@ -47,20 +47,20 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-normal mb-4 tracking-wide">Quick Links</h3>
+            <h3 className="font-normal mb-4 tracking-wide text-sm">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/programs" className="text-gray-300 hover:text-white">
+                <Link href="/programs" className="text-gray-300 hover:text-white text-sm">
                   Programs
                 </Link>
               </li>
               <li>
-                <Link href="/members" className="text-gray-300 hover:text-white">
+                <Link href="/members" className="text-gray-300 hover:text-white text-sm">
                   Members
                 </Link>
               </li>
               <li>
-                <Link href="/recruitment" className="text-gray-300 hover:text-white">
+                <Link href="/recruitment" className="text-gray-300 hover:text-white text-sm">
                   Recruitment
                 </Link>
               </li>
@@ -68,8 +68,8 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-normal mb-4 tracking-wide">Contact</h3>
-            <ul className="space-y-2 text-gray-300 font-light">
+            <h3 className="font-normal mb-4 tracking-wide text-sm">Contact</h3>
+            <ul className="space-y-2 text-gray-300 font-light text-sm">
               <li>Duke University</li>
               <li>Durham, NC 27708</li>
               <li>contact@dukeventuregroup.com</li>
@@ -78,7 +78,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
-          <p className="font-light tracking-wide">&copy; 2024 Duke Venture Group. All rights reserved.</p>
+          <p className="font-light tracking-wide text-sm">&copy; 2025 Duke Venture Group. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -1,4 +1,6 @@
 export function GeneralBody() {
+  // Commented out for future use
+  /*
   const generalMembers = [
     "Alex Chen",
     "Sarah Johnson",
@@ -43,4 +45,7 @@ export function GeneralBody() {
       </div>
     </section>
   )
+  */
+
+  return null
 }

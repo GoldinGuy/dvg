@@ -79,7 +79,9 @@ export function FAQSection() {
       <div className="container max-w-4xl">
         {/* Recruitment Section */}
         <div className="mb-16">
-          <h2 className="text-3xl md:text-4xl font-light mb-8 text-primary-800 tracking-wide">Recruitment</h2>
+          <h2 className="text-3xl md:text-4xl font-light mb-8 text-primary-900 dark:text-white tracking-wide">
+            Recruitment
+          </h2>
           <Accordion type="single" collapsible className="space-y-4">
             {recruitmentFAQs.map((faq, index) => (
               <AccordionItem key={index} value={`recruitment-${index}`} className="card-elegant">
@@ -96,7 +98,9 @@ export function FAQSection() {
 
         {/* Education & Training Section */}
         <div className="mb-16">
-          <h2 className="text-3xl md:text-4xl font-light mb-8 text-primary-800 tracking-wide">Education & Training</h2>
+          <h2 className="text-3xl md:text-4xl font-light mb-8 text-primary-900 dark:text-white tracking-wide">
+            Education & Training
+          </h2>
           <Accordion type="single" collapsible className="space-y-4">
             {educationFAQs.map((faq, index) => (
               <AccordionItem key={index} value={`education-${index}`} className="card-elegant">
@@ -113,7 +117,9 @@ export function FAQSection() {
 
         {/* Staying Involved Section */}
         <div>
-          <h2 className="text-3xl md:text-4xl font-light mb-8 text-primary-800 tracking-wide">Staying Involved</h2>
+          <h2 className="text-3xl md:text-4xl font-light mb-8 text-primary-900 dark:text-white tracking-wide">
+            Staying Involved
+          </h2>
           <Accordion type="single" collapsible className="space-y-4">
             {stayingInvolvedFAQs.map((faq, index) => (
               <AccordionItem key={index} value={`staying-${index}`} className="card-elegant">

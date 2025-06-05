@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { Button } from "@/components/ui/button"
 
 interface BoardMember {
   name: string
@@ -56,7 +55,7 @@ export function ExecutiveBoard() {
       name: "Natalie Miner",
       title: "Founding Member, Vice President of Education",
       bio: "Natalie Miner is a Sophomore from Minnetrista, MN, double-majoring in Mathematics and Economics. Natalie has a strong interest in Entrepreneurship and analytical problem-solving. Outside of DVG, Natalie is a Dzialga Women in Finance Scholar, serves as Publicity Chair for First Generation Investors, serves on the Spring Business Conference Committee of BOW, and is a member of the Duke Association for Women in Mathematics. This past summer, Natalie worked on a Data+ research project at Duke called Ethical Consumption Before Capitalism.",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/members/natalie-miner.jpg",
     },
     {
       name: "Tommy Brennan",
@@ -94,7 +93,9 @@ export function ExecutiveBoard() {
     <section className="py-20 bg-muted/30">
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide">Executive Board</h2>
+          <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide text-primary-900 dark:text-white">
+            Executive Board
+          </h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
@@ -117,15 +118,7 @@ export function ExecutiveBoard() {
                 {member.title}
               </p>
 
-              <p className="text-sm text-muted-foreground font-light leading-relaxed mb-4 line-clamp-4">{member.bio}</p>
-
-              <Button
-                variant="ghost"
-                size="sm"
-                className="text-primary-600 hover:text-primary-800 dark:text-primary-400 dark:hover:text-primary-300 font-light"
-              >
-                Read More
-              </Button>
+              <p className="text-sm text-muted-foreground font-light leading-relaxed mb-4">{member.bio}</p>
             </div>
           ))}
         </div>

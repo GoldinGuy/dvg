@@ -22,7 +22,7 @@ export function ProgramsOverview() {
       ],
     },
     {
-      title: "DVG Fellowship",
+      title: "DVG Fellow",
       description:
         "Exclusive access to networking events, speaker series, and career development opportunities in venture capital.",
       features: [

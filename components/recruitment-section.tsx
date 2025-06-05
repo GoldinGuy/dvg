@@ -74,7 +74,7 @@ export function RecruitmentSection() {
         <Accordion type="single" collapsible className="space-y-4">
           {allFAQs.map((faq, index) => (
             <AccordionItem key={index} value={`faq-${index}`} className="card-elegant">
-              <AccordionTrigger className="px-6 py-4 text-left font-normal tracking-wide hover:no-underline">
+              <AccordionTrigger className="px-6 py-4 text-left font-normal tracking-wide hover:no-underline text-primary-900 dark:text-white">
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent className="px-6 pb-4 text-muted-foreground font-light tracking-wide leading-relaxed">

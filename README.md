@@ -1,30 +1,237 @@
 # Duke Venture Group Website
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
-
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/goldinguys-projects/v0-duke-venture-group-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/8QdOHrFvmdy)
+A modern, responsive website for Duke University's premier student-run venture capital organization, built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+This website serves as the digital presence for Duke Venture Group (DVG), showcasing our mission, programs, team members, and recruitment information. The site features a clean, professional design that reflects the organization's commitment to excellence in venture capital education.
+
+## Tech Stack
+
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Icons**: Lucide React
+- **Fonts**: Inter (body), Cinzel (headings)
+- **Image Optimization**: Next.js Image component
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18.0 or later
+- npm, yarn, or pnpm package manager
+
+### Installation
+
+1. Clone the repository:
+\`\`\`bash
+git clone <repository-url>
+cd duke-venture-group-website
+\`\`\`
+
+2. Install dependencies:
+\`\`\`bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+\`\`\`
+
+3. Run the development server:
+\`\`\`bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+\`\`\`
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the website.
+
+## Project Structure
+
+\`\`\`
+├── app/                    # Next.js App Router pages
+│   ├── faqs/              # FAQ page
+│   ├── members/           # Members page
+│   ├── programs/          # Programs page
+│   ├── recruitment/       # Recruitment page
+│   ├── globals.css        # Global styles
+│   ├── layout.tsx         # Root layout
+│   └── page.tsx           # Home page
+├── components/            # Reusable React components
+│   ├── ui/               # shadcn/ui components
+│   ├── about.tsx         # About section
+│   ├── executive-board.tsx # Executive board members
+│   ├── faq-section.tsx   # FAQ accordion
+│   ├── footer.tsx        # Site footer
+│   ├── hero.tsx          # Hero section
+│   ├── navigation.tsx    # Main navigation
+│   ├── partners.tsx      # Partners section
+│   ├── programs.tsx      # Programs overview
+│   └── ...               # Other components
+├── public/               # Static assets
+│   └── images/           # Image files
+├── lib/                  # Utility functions
+└── hooks/                # Custom React hooks
+\`\`\`
+
+## Pages Overview
+
+### Home Page (`/`)
+- **Hero Section**: Main banner with DVG logo and tagline
+- **About Section**: Overview of DVG's mission and partnership with Duke I&E
+- **Partners Section**: Grid of partner organization logos
+- **Programs Section**: Overview of DVG Analyst and Fellowship programs
+
+### Programs Page (`/programs`)
+- **Programs Overview**: Detailed breakdown of DVG Analyst and Fellowship tracks
+- **Schedule**: Tentative Fall 2025 timeline with workshops and events
+
+### Members Page (`/members`)
+- **Executive Board**: Profiles of founding members and leadership team
+- **General Body**: (Currently commented out for future use)
+
+### Recruitment Page (`/recruitment`)
+- **FAQ Section**: Comprehensive answers to recruitment questions
+- **Process Information**: Details about application timeline and requirements
+
+### FAQ Page (`/faqs`)
+- **Organized Sections**: Recruitment, Education & Training, and Staying Involved
+- **Accordion Interface**: Expandable questions and answers
+
+## Content Management
+
+### Adding New Members
+
+1. Add member photo to `public/images/members/`
+2. Update the `boardMembers` array in `components/executive-board.tsx`
+3. Include name, title, bio, and image path
+
+### Updating FAQ Content
+
+1. Edit the FAQ arrays in `components/faq-section.tsx` or `components/recruitment-section.tsx`
+2. Questions and answers are organized by category
+
+### Modifying Partners
+
+1. Update the `partners` array in `components/partners.tsx`
+2. Replace placeholder logos with actual partner logos in `public/images/partners/`
+
+### Updating Schedule
+
+1. Modify the `scheduleItems` array in `components/programs-schedule.tsx`
+2. Include date, event name, and time information
+
+## Styling Guidelines
+
+### Design System
+
+- **Primary Color**: Deep blue (#19324a) with various shades
+- **Typography**: Cinzel for headings (elegant, serif), Inter for body text
+- **Spacing**: Consistent 20px vertical sections, responsive containers
+- **Border Radius**: Minimal (2-4px) for a clean, professional look
+
+### Component Classes
+
+- `.card-elegant`: Standard card styling with subtle borders
+- `.button-elegant`: Consistent button styling with minimal radius
+- `.elegant-text`: Light font weight with wide tracking
+- `.elegant-heading`: Extra-light headings with wider tracking
+
+### Responsive Design
+
+- Mobile-first approach using Tailwind's responsive prefixes
+- Breakpoints: `sm` (640px), `md` (768px), `lg` (1024px), `xl` (1280px)
+- Grid layouts adapt from single column to multi-column on larger screens
+
+## Development Guidelines
+
+### Code Style
+
+- Use TypeScript for all components and pages
+- Follow React functional component patterns with hooks
+- Implement proper accessibility with semantic HTML and ARIA attributes
+- Use Next.js Image component for optimized image loading
+
+### Performance Considerations
+
+- Images are optimized with Next.js Image component
+- Components use proper loading priorities
+- Minimal JavaScript bundle with tree-shaking
+- CSS-in-JS avoided in favor of Tailwind utility classes
+
+### SEO Optimization
+
+- Proper meta tags in `app/layout.tsx`
+- Semantic HTML structure
+- Alt text for all images
+- Descriptive page titles and descriptions
 
 ## Deployment
 
-Your project is live at:
+### Build Process
 
-**[https://vercel.com/goldinguys-projects/v0-duke-venture-group-website](https://vercel.com/goldinguys-projects/v0-duke-venture-group-website)**
+\`\`\`bash
+npm run build
+\`\`\`
 
-## Build your app
+This creates an optimized production build in the `.next` directory.
 
-Continue building your app on:
+### Environment Variables
 
-**[https://v0.dev/chat/projects/8QdOHrFvmdy](https://v0.dev/chat/projects/8QdOHrFvmdy)**
+No environment variables are currently required for basic functionality.
 
-## How It Works
+### Static Export (Optional)
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+For static hosting, you can export the site:
+
+\`\`\`bash
+npm run build && npm run export
+\`\`\`
+
+## Contributing
+
+### Making Changes
+
+1. Create a new branch for your feature/fix
+2. Make changes following the established patterns
+3. Test thoroughly on different screen sizes
+4. Ensure accessibility standards are met
+5. Submit a pull request with detailed description
+
+### Content Updates
+
+- Member information updates should include high-quality headshots
+- FAQ updates should maintain consistent formatting
+- Schedule changes should be coordinated with DVG leadership
+
+## Maintenance
+
+### Regular Updates
+
+- Review and update member information each semester
+- Update recruitment timeline and FAQ content
+- Refresh partner logos and information as needed
+- Monitor for broken links and outdated content
+
+### Technical Maintenance
+
+- Keep dependencies updated for security
+- Monitor Core Web Vitals and performance metrics
+- Ensure cross-browser compatibility
+- Test mobile responsiveness regularly
+
+## Support
+
+For technical issues or questions about the website:
+- Review this documentation first
+- Check the component code for implementation details
+- Contact the DVG Tech team for assistance
+
+For content updates or organizational questions:
+- Contact DVG leadership team
+- Refer to the DVG brand guidelines for visual consistency
