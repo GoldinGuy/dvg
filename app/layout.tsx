@@ -9,14 +9,13 @@ const inter = Inter({ subsets: ["latin"] })
 const cinzel = Cinzel({ subsets: ["latin"], variable: "--font-cinzel" })
 
 export const metadata: Metadata = {
-  title: "Duke Venture Group | Premier Student-Run VC Organization",
+  title: "Duke Venture Group",
   description:
-    "Duke University's premier, student-run venture capital organization offering hands-on experience in sourcing, evaluation, and strategic support of early-stage startups.",
-  generator: "v0.dev",
+    "Duke University's premier student-run venture capital organization offering hands-on experience in sourcing, evaluation, and strategic support of early-stage startups.",
   openGraph: {
-    title: "Duke Venture Group | Premier Student-Run VC Organization",
+    title: "Duke Venture Group",
     description:
-      "Duke University's premier, student-run venture capital organization offering hands-on experience in sourcing, evaluation, and strategic support of early-stage startups.",
+      "Duke University's premier student-run venture capital organization offering hands-on experience in sourcing, evaluation, and strategic support of early-stage startups.",
     images: [
       {
         url: "/images/hero-arches.jpg",
@@ -28,9 +27,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Duke Venture Group | Premier Student-Run VC Organization",
+    title: "Duke Venture Group",
     description:
-      "Duke University's premier, student-run venture capital organization offering hands-on experience in sourcing, evaluation, and strategic support of early-stage startups.",
+      "Duke University's premier student-run venture capital organization offering hands-on experience in sourcing, evaluation, and strategic support of early-stage startups.",
     images: ["/images/hero-arches.jpg"],
   },
   icons: {

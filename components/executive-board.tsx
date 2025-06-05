@@ -10,7 +10,7 @@ interface BoardMember {
 export function ExecutiveBoard() {
   const boardMembers: BoardMember[] = [
     {
-      name: "Nathan Goldin",
+      name: "Nate Goldin",
       title: "Founder and President",
       bio: "Nate Goldin is a sophomore from Palm Beach Gardens, FL, majoring in Public Policy with a minor in Music and certificate in Markets and Management. Nate has spent his summers working in Venture Capital and Private Wealth Management, and also has experience as an economic research analyst. Outside of DVG, he is involved in Bass Connections, the Fed Challenge Club, and the Duke Symphony Orchestra. In his free time, Nate enjoys playing golf and watching Miami sports.",
       image: "/images/members/nathan-goldin.jpg",
@@ -22,7 +22,7 @@ export function ExecutiveBoard() {
       image: "/images/members/diego-keller.jpg",
     },
     {
-      name: "Samuel Elkin",
+      name: "Sam Elkin",
       title: "Founding Member, Executive Vice President",
       bio: "Sam Elkin is a sophomore from Princeton, New Jersey, double-majoring in Mathematics and Economics (finance concentration). Sam has a strong interest in working with entrepreneurs and founders, and has experience working as a Private Equity Analyst at Emerald Square Ventures, a search fund founded by two Wharton MBA graduates. Sam spent his last summer interning at Morgan Stanley in their Wealth Management division. In his free time, he enjoys playing lacrosse, DJing, and watching the Green Bay Packers.",
       image: "/images/members/sam-elkin.jpg",
