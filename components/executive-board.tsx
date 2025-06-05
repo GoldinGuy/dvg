@@ -10,7 +10,7 @@ interface BoardMember {
 export function ExecutiveBoard() {
   const boardMembers: BoardMember[] = [
     {
-      name: "Nate Goldin",
+      name: "Nathan Goldin",
       title: "Founder and President",
       bio: "Nate Goldin is a sophomore from Palm Beach Gardens, FL, majoring in Public Policy with a minor in Music and certificate in Markets and Management. Nate has spent his summers working in Venture Capital and Private Wealth Management, and also has experience as an economic research analyst. Outside of DVG, he is involved in Bass Connections, the Fed Challenge Club, and the Duke Symphony Orchestra. In his free time, Nate enjoys playing golf and watching Miami sports.",
       image: "/images/members/nathan-goldin.jpg",
@@ -18,7 +18,7 @@ export function ExecutiveBoard() {
     {
       name: "Diego Keller",
       title: "Founding Member, Executive Vice President",
-      bio: "Diego Keller is a sophomore from Charlotte, NC, pursuing a double major in Economics (with a Finance concentration) and Public Policy, along with a certificate in Markets and Management. He has interned in private equity at Falfurrias Capital and Kian Capital, and in venture capital at Red Bike Capital. Outside of DVG, Diego is a Consultant Analyst for the Duke Impact Investing Group, a Film Analyst for Duke Football, and a member of Duke SHAPE. He also has a strong background in politics, having served as a Political Consultant, DNC Delegate, NC SEC Member, and Campaign Manager. In his free time, Diego enjoys playing football and grilling with friends.",
+      bio: "Diego Keller is a sophomore from Charlotte, NC, pursuing a double major in Economics (with a Finance concentration) and Public Policy, along with a certificate in Markets and Management. He has interned in private equity at Falfurrias Capital and Kian Capital, and in venture capital at Red Bike Capital. Outside of DVG, Diego is a Consultant Analyst for the Duke Impact Investing Group, a Film Analyst for Duke Football, and a member of Duke SHAPE. In his free time, Diego enjoys playing football and grilling with friends.",
       image: "/images/members/diego-keller.jpg",
     },
     {
@@ -84,7 +84,7 @@ export function ExecutiveBoard() {
     {
       name: "Chase Baxter",
       title: "Founding Member, Vice President of Tech",
-      bio: "Chase Baxter is a sophomore from Jupiter, Florida, majoring in Civil Engineering. He has spent his past summers working as an engineer. Most recently, he worked in quantitative asset management at MetLife Investment Management. In his free time, he enjoys playing basketball and watching the Patriots.",
+      bio: "Chase Baxter is a sophomore from Jupiter, Florida, majoring in Civil Engineering. He has spent his past summers working as an engineering intern at Isiminger & Stubbs, and is currently working full-time at Simmons & White. In his free time, he enjoys playing spikeball and watching Chicago sports.",
       image: "/images/members/chase-baxter.jpg",
     },
   ]

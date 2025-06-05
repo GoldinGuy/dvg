@@ -18,7 +18,6 @@ export function ProgramsOverview() {
         "All newly admitted members begin as Analyst Trainees and participate in a rigorous 6–8 week education program co-developed with Duke Innovation & Entrepreneurship (I&E).",
         "This curriculum combines hands-on workshops, expert-led teach-ins, and case-based learning to build core competencies in startup sourcing and evaluation, investment thesis construction, market research and due diligence fundamentals, and communication of insights and recommendations.",
         "The program culminates in an internal investment competition, where teams pitch their final theses to a panel of judges. The winning team earns the opportunity to represent Duke at the Venture Capital Investment Competition (VCIC), hosted nationally at UNC.",
-        "Throughout the semester, analysts also engage in curated speaker series, simulations, and private events with founders, investors, and alumni in the venture ecosystem—gaining insights directly from professionals in the field.",
       ],
     },
     {

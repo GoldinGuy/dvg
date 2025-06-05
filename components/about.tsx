@@ -11,9 +11,9 @@ export function About() {
             </h2>
             <div className="space-y-4 text-lg leading-relaxed font-light tracking-wide">
               <p>
-                Duke Venture Group (DVG) is Duke University's premier, student-run venture capital organization—offering
-                a highly selective, hands-on experience for undergraduates to engage in the sourcing, evaluation, and
-                strategic support of early-stage startups.
+                Duke Venture Group (DVG) is Duke University's premier undergraduate venture capital
+                organization—offering a highly selective, hands-on experience for undergraduates to engage in the
+                sourcing, evaluation, and strategic support of early-stage startups.
               </p>
               <p>
                 Through a partnership with Duke's Innovation and Entrepreneurship department, DVG operates at the
