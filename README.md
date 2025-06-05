@@ -2,11 +2,7 @@
 
 A modern, responsive website for Duke University's premier student-run venture capital organization, built with Next.js, TypeScript, and Tailwind CSS.
 
-## Overview
-
-This website serves as the digital presence for Duke Venture Group (DVG), showcasing our mission, programs, team members, and recruitment information. The site features a clean, professional design that reflects the organization's commitment to excellence in venture capital education.
-
-## Tech Stack
+## Stack
 
 - **Framework**: Next.js 14 with App Router
 - **Language**: TypeScript
@@ -16,12 +12,7 @@ This website serves as the digital presence for Duke Venture Group (DVG), showca
 - **Fonts**: Inter (body), Cinzel (headings)
 - **Image Optimization**: Next.js Image component
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18.0 or later
-- npm, yarn, or pnpm package manager
+## Dev Setup
 
 ### Installation
 
@@ -49,35 +40,7 @@ yarn dev
 pnpm dev
 \`\`\`
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the website.
-
-## Project Structure
-
-\`\`\`
-├── app/                    # Next.js App Router pages
-│   ├── faqs/              # FAQ page
-│   ├── members/           # Members page
-│   ├── programs/          # Programs page
-│   ├── recruitment/       # Recruitment page
-│   ├── globals.css        # Global styles
-│   ├── layout.tsx         # Root layout
-│   └── page.tsx           # Home page
-├── components/            # Reusable React components
-│   ├── ui/               # shadcn/ui components
-│   ├── about.tsx         # About section
-│   ├── executive-board.tsx # Executive board members
-│   ├── faq-section.tsx   # FAQ accordion
-│   ├── footer.tsx        # Site footer
-│   ├── hero.tsx          # Hero section
-│   ├── navigation.tsx    # Main navigation
-│   ├── partners.tsx      # Partners section
-│   ├── programs.tsx      # Programs overview
-│   └── ...               # Other components
-├── public/               # Static assets
-│   └── images/           # Image files
-├── lib/                  # Utility functions
-└── hooks/                # Custom React hooks
-\`\`\`
+4. Open [http://localhost:3000](http://localhost:3000) :)
 
 ## Pages Overview
 
@@ -148,29 +111,6 @@ pnpm dev
 - Breakpoints: `sm` (640px), `md` (768px), `lg` (1024px), `xl` (1280px)
 - Grid layouts adapt from single column to multi-column on larger screens
 
-## Development Guidelines
-
-### Code Style
-
-- Use TypeScript for all components and pages
-- Follow React functional component patterns with hooks
-- Implement proper accessibility with semantic HTML and ARIA attributes
-- Use Next.js Image component for optimized image loading
-
-### Performance Considerations
-
-- Images are optimized with Next.js Image component
-- Components use proper loading priorities
-- Minimal JavaScript bundle with tree-shaking
-- CSS-in-JS avoided in favor of Tailwind utility classes
-
-### SEO Optimization
-
-- Proper meta tags in `app/layout.tsx`
-- Semantic HTML structure
-- Alt text for all images
-- Descriptive page titles and descriptions
-
 ## Deployment
 
 ### Build Process
@@ -181,18 +121,6 @@ npm run build
 
 This creates an optimized production build in the `.next` directory.
 
-### Environment Variables
-
-No environment variables are currently required for basic functionality.
-
-### Static Export (Optional)
-
-For static hosting, you can export the site:
-
-\`\`\`bash
-npm run build && npm run export
-\`\`\`
-
 ## Contributing
 
 ### Making Changes
@@ -202,36 +130,3 @@ npm run build && npm run export
 3. Test thoroughly on different screen sizes
 4. Ensure accessibility standards are met
 5. Submit a pull request with detailed description
-
-### Content Updates
-
-- Member information updates should include high-quality headshots
-- FAQ updates should maintain consistent formatting
-- Schedule changes should be coordinated with DVG leadership
-
-## Maintenance
-
-### Regular Updates
-
-- Review and update member information each semester
-- Update recruitment timeline and FAQ content
-- Refresh partner logos and information as needed
-- Monitor for broken links and outdated content
-
-### Technical Maintenance
-
-- Keep dependencies updated for security
-- Monitor Core Web Vitals and performance metrics
-- Ensure cross-browser compatibility
-- Test mobile responsiveness regularly
-
-## Support
-
-For technical issues or questions about the website:
-- Review this documentation first
-- Check the component code for implementation details
-- Contact the DVG Tech team for assistance
-
-For content updates or organizational questions:
-- Contact DVG leadership team
-- Refer to the DVG brand guidelines for visual consistency
