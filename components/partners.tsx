@@ -44,7 +44,7 @@ export function Partners() {
                   src={partner.logo || "/placeholder.svg"}
                   alt={partner.name}
                   fill
-                  className="object-contain opacity-80 hover:opacity-100 transition-opacity dark:brightness-0 dark:invert"
+                  className="object-contain opacity-80 hover:opacity-100 transition-opacity"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw"
                 />
               </div>
