@@ -5,12 +5,12 @@ export function RecruitmentSection() {
     {
       question: "How many new members are accepted each semester?",
       answer:
-        "We accept 20–25 highly motivated first-year students per recruitment cycle. Admission is competitive and based on demonstrated interest, intellectual curiosity, and potential for contribution.",
+        "We accept 20–25 highly motivated students per recruitment cycle. Admission is competitive and based on demonstrated interest, intellectual curiosity, and potential for contribution.",
     },
     {
       question: "What is the time commitment for DVG members?",
       answer:
-        "Members can expect to commit 1-2 hours per week through workshops, meetings, startup diligence, and events. Time commitment may increase during high-engagement periods. Attendance is mandatory for all case competitions and speaker events.",
+        "Members can expect to commit 2-3 hours per week through workshops, meetings, startup diligence, and events. Time commitment may increase during high-engagement periods. Attendance is mandatory for all case competitions and speaker events.",
     },
     {
       question: "What distinguishes DVG from other entrepreneurship clubs?",
@@ -34,7 +34,7 @@ export function RecruitmentSection() {
     {
       question: "When does recruitment take place?",
       answer:
-        "We recruit once a year at the beginning of the fall semester. Follow @dukeventuregroup on Instagram for updates.",
+        "We recruit once a year at the beginning of the fall semester. Follow @dukeventure on Instagram for updates.",
     },
     {
       question: "What is the interview like?",
@@ -44,12 +44,12 @@ export function RecruitmentSection() {
     {
       question: "Are there any eligibility requirements?",
       answer:
-        "Yes. Recruitment is open only to first-year students at Duke. We welcome applicants from all majors and backgrounds—no prior experience in venture capital or entrepreneurship is required.",
+        "Yes. Recruitment is open only to first-year and second-year students at Duke. We welcome applicants from all majors and backgrounds—no prior experience in venture capital or entrepreneurship is required.",
     },
     {
       question: "Where can I learn more about DVG?",
       answer:
-        "Visit our website at www.dukeventuregroup.com and follow us on Instagram (@dukeventuregroup) for real-time updates. For any additional inquiries, feel free to reach out via our contact page or social channels.",
+        "Visit our website at www.dukeventuregroup.com and follow us on Instagram (@dukeventure) for real-time updates. For any additional inquiries, feel free to reach out via our contact page or social channels.",
     },
     {
       question: "How does Analyst Education work?",
