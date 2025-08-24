@@ -2,12 +2,13 @@ import { Calendar, Clock, Users, Trophy } from "lucide-react"
 
 export function ProgramsSchedule() {
   const scheduleItems = [
+    { date: "8/26", event: "DVG Launch Event w/ @limmytalks", time: "7:30-9:00 PM" },
+    { date: "9/2 & 9/3", event: "Information Sessions", time: "7:30 PM, 6:00PM" },
     { date: "9/4", event: "I&E Fest", time: "4:00–7:00 PM" },
-    { date: "9/9 & 9/11", event: "Info Sessions", time: "7:00 PM" },
-    { date: "9/15", event: "Application Deadline", time: "11:59 PM" },
-    { date: "9/19", event: "Interest Meeting ⇨ VC Foundations Workshop #1: How to get into VC", time: "" },
-    { date: "9/22, 9/23, 9/24", event: "Applicant Interviews (Invite only)", time: "" },
-    { date: "9/28", event: "General Body Meeting (Welcome New Analysts)", time: "3:00 PM" },
+    { date: "9/8", event: "Application Deadline", time: "11:59 PM" },
+    { date: "9/10-9/12", event: "Interviews (invitation only)", time: "" },
+    { date: "9/14", event: "General Body Meeting (Welcome New Analysts)", time: "3:00 PM" },
+    { date: "9/19", event: "VC Foundations Workshop #1: How to get into VC", time: "" },
     { date: "10/2", event: "VC Foundations Workshop #2: Deal Sourcing & Accessing Founders", time: "6:30 PM" },
     { date: "10/16", event: "Speaker Series Event", time: "6:30 PM" },
     { date: "10/30", event: "VC Foundations Workshop #3: Building an Investment Thesis", time: "6:30 PM" },
@@ -24,7 +25,7 @@ export function ProgramsSchedule() {
       <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide text-primary-900 dark:text-white">
-            Tentative Fall 2025 Schedule
+            Fall 2025 Schedule
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-light tracking-wide mb-8">
             Through our collaboration with Duke Innovation and Entrepreneurship, our semester will be filled with
