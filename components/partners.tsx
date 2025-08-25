@@ -4,7 +4,7 @@ export function Partners() {
   const partners = [
     {
       name: "Duke Innovation & Entrepreneurship",
-      logo: "/images/partners/duke-innovation.jpg",
+      logo: "/images/partners/duke-i&e.jpg",
     },
     {
       name: "Duke Capital Partners",
