@@ -25,10 +25,10 @@ export function About() {
 
           <div className="relative">
             <Image
-              src="/images/about-dvg-new.jpg"
-              alt="Duke University Campus at Evening"
+              src="/images/dvg-group-pic.jpg"
+              alt="Duke Venture Group Picture"
               width={600}
-              height={400}
+              height={500}
               className="shadow-lg"
               style={{ borderRadius: "4px" }}
             />

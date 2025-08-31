@@ -5,7 +5,7 @@ import Link from "next/link"
 export function ProgramsOverview() {
   const programs = [
     {
-      title: "DVG Analyst",
+      title: "Investment Analyst",
       description:
         "Elite program combining rigorous education with hands-on startup evaluation and investment thesis development.",
       features: [
@@ -21,7 +21,7 @@ export function ProgramsOverview() {
       ],
     },
     {
-      title: "DVG Fellow",
+      title: "DVG Associate",
       description:
         "Exclusive access to networking events, speaker series, and career development opportunities in venture capital.",
       features: [
