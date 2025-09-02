@@ -17,7 +17,7 @@ export function ProgramsSchedule() {
     { date: "11/20", event: "VC Foundations Workshop #5: Cap Tables & The Distribution Waterfall", time: "6:30 PM" },
     { date: "12/4", event: "Speaker Series (Case Studies)", time: "6:30 PM" },
     { date: "12/8", event: "VCIC Internal Competition", time: "6:30 PM" },
-    { date: "12/12", event: "DVG Associate Initiation", time: "" },
+    { date: "12/12", event: "Venture Associate Initiation", time: "" },
   ]
 
   return (

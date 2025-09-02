@@ -21,7 +21,7 @@ export function ProgramsOverview() {
       ],
     },
     {
-      title: "DVG Associate",
+      title: "Venture Associate",
       description:
         "Exclusive access to networking events, speaker series, and career development opportunities in venture capital.",
       features: [

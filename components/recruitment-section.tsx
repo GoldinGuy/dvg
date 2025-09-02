@@ -59,7 +59,7 @@ export function RecruitmentSection() {
     {
       question: "What leadership opportunities exist within DVG?",
       answer:
-        "After completing analyst education, members become DVG Associates and are eligible for deeper involvement. Our leadership structure includes: President – Oversees all operations and external relations, Executive Vice Presidents – Support operations and strategic planning, Vice Presidents – Lead dedicated verticals including Education, Tech, Membership, Finance, and Recruitment. These roles offer Fellows the opportunity to shape the organization's direction, plan events, manage partner relations, and mentor new analysts.",
+        "After completing analyst education, members become Venture Associates and are eligible for deeper involvement. Our leadership structure includes: President – Oversees all operations and external relations, Executive Vice Presidents – Support operations and strategic planning, Vice Presidents – Lead dedicated verticals including Education, Tech, Membership, Finance, and Recruitment. These roles offer Fellows the opportunity to shape the organization's direction, plan events, manage partner relations, and mentor new analysts.",
     },
     {
       question: "How do I apply to be a VP?",
