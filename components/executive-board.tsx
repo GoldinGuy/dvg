@@ -5,6 +5,7 @@ interface BoardMember {
   title: string
   bio: string
   image: string
+  imagePosition?: string // e.g., "center 30%"
 }
 
 export function ExecutiveBoard() {
@@ -14,18 +15,21 @@ export function ExecutiveBoard() {
       title: "Founder & President",
       bio: "Nate Goldin is a sophomore from Palm Beach Gardens, FL, majoring in Public Policy with a minor in Music and certificate in Markets and Management. Nate has spent his summers working in Venture Capital and Private Wealth Management, and also has experience as an economic research analyst. Outside of DVG, he is involved in Bass Connections, the Fed Challenge Club, and the Duke Symphony Orchestra. In his free time, Nate enjoys playing golf and watching Miami sports.",
       image: "/images/members/nathan-goldin.jpg",
+      imagePosition: "center 25%"
     },
     {
       name: "Diego Keller",
       title: "Co-Founder & Executive Vice President",
       bio: "Diego Keller is a sophomore from Charlotte, NC, pursuing a double major in Economics (with a Finance concentration) and Public Policy, along with a certificate in Markets and Management. He has interned in private equity at Falfurrias Capital and Kian Capital, and in venture capital at Red Bike Capital. Outside of DVG, Diego is a Consultant Analyst for the Duke Impact Investing Group, a Film Analyst for Duke Football, and a member of Duke SHAPE. In his free time, Diego enjoys playing football and grilling with friends.",
       image: "/images/members/diego-keller.jpg",
+      imagePosition: "center 45%"
     },
     {
       name: "Sam Elkin",
       title: "Co-Founder & Executive Vice President",
       bio: "Sam Elkin is a sophomore from Princeton, New Jersey, double-majoring in Mathematics and Economics (finance concentration). Sam has a strong interest in working with entrepreneurs and founders, and has experience working as a Private Equity Analyst at Emerald Square Ventures, a search fund founded by two Wharton MBA graduates. Sam spent his last summer interning at Morgan Stanley in their Wealth Management division. In his free time, he enjoys playing lacrosse, DJing, and watching the Green Bay Packers.",
       image: "/images/members/sam-elkin.jpg",
+      imagePosition: "center 40%"
     },
     {
       name: "Terrence Ware",
@@ -44,18 +48,21 @@ export function ExecutiveBoard() {
       title: "Vice President of Professional",
       bio: "Akshara Krishna is a sophomore from Waxhaw, NC double majoring in Economics and Neuroscience. She's the founder of Elev8, a learning platform helping high school students overcome perfectionism through failure-forward education. Prior to this, she built soft skill and STEAM programs reaching over 43,000 students, advised early-stage startups on growth strategy, and launched an afterschool music initiative to expand access to the arts. Her latest initiative, The Ambition Project, explores what drives young people to take bold action. Outside her work, Akshara is a choreographer, violinist, and pianist who believes creativity is central to leadership.",
       image: "/images/members/akshara-krishna.jpg",
+      imagePosition: "center 63%",
     },
     {
       name: "Alexa Jacob",
       title: "Vice President of Membership",
       bio: "Alexa Jacob is a sophomore from Short Hills, NJ, majoring in Risk, Data, and Financial Engineering with a minor in Economics. Alexa has spent the past few summers working for a real estate firm. She is currently working as a research assistant for the Duke department of Economics on modeling the downside risk in the stock market. Outside of DVG, Alexa is a member of the Society of Women Engineers and the Duke Real Estate Club, and works as a tour guide for Duke Admissions. In her free time, Alexa enjoys traveling, baking, and watching sports.",
       image: "/images/members/alexa-jacob.jpg",
+      imagePosition: "center 40%",
     },
     {
       name: "Natalie Miner",
       title: "Vice President of Education",
       bio: "Natalie Miner is a Sophomore from Minnetrista, MN, double-majoring in Mathematics and Economics. Natalie has a strong interest in Entrepreneurship and analytical problem-solving. Outside of DVG, Natalie is a Dzialga Women in Finance Scholar, serves as Publicity Chair for First Generation Investors, serves on the Spring Business Conference Committee of BOW, and is a member of the Duke Association for Women in Mathematics. This past summer, Natalie worked on a Data+ research project at Duke called Ethical Consumption Before Capitalism.",
       image: "/images/members/natalie-miner.jpg",
+      imagePosition: "center 40%",
     },
     {
       name: "Tommy Brennan",
@@ -68,6 +75,7 @@ export function ExecutiveBoard() {
       title: "Vice President of Recruitment",
       bio: "Lauren Hollar is a sophomore from Charlotte, NC, majoring in Economics with a minor in chemistry and certificate in Markets and Management. Over the past several summers, Lauren has launched and enhanced her nonprofit organization, gained insight into financial policy through a shadowing experience at the U.S. House of Representatives, and deepened her understanding of real estate investment by observing industry professionals. Outside of DVG, Lauren works as a tour guide for Duke Admissions and serves as an ambassador for Duke Global Education. In her free time, Lauren enjoys playing golf, traveling, and spending time with family.",
       image: "/images/members/lauren-hollar.jpg",
+      imagePosition: "center 56%",
     },
     {
       name: "Vanessa Dare",
@@ -109,6 +117,9 @@ export function ExecutiveBoard() {
                     fill
                     className="object-cover rounded-full"
                     priority={index < 6}
+                    style={{
+                      objectPosition: member.imagePosition ?? "center",
+                    }}
                   />
                 </div>
               </div>
