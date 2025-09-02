@@ -3,9 +3,9 @@ import { Calendar, Clock, Users, Trophy } from "lucide-react"
 export function ProgramsSchedule() {
   const scheduleItems = [
     { date: "8/26", event: "DVG Launch Event w/ @limmytalks", time: "7:30-9:00 PM" },
-    { date: "9/2 & 9/3", event: "Information Sessions", time: "7:30 PM, 6:00PM" },
+    { date: "9/2 & 9/3", event: "Information Sessions", time: "8:00 PM, 6:00PM" },
     { date: "9/4", event: "I&E Fest", time: "4:00–7:00 PM" },
-    { date: "9/8", event: "Application Deadline", time: "11:59 PM" },
+    { date: "9/7", event: "Application Deadline", time: "11:59 PM" },
     { date: "9/10-9/12", event: "Interviews (invitation only)", time: "" },
     { date: "9/14", event: "General Body Meeting (Welcome New Analysts)", time: "3:00 PM" },
     { date: "9/19", event: "VC Foundations Workshop #1: How to get into VC", time: "" },
