@@ -28,7 +28,7 @@ export function ExecutiveBoard() {
       name: "Sam Elkin",
       title: "Co-Founder & Executive Vice President",
       bio: "Sam Elkin is a sophomore from Princeton, New Jersey, double-majoring in Mathematics and Economics (finance concentration). Sam has a strong interest in working with entrepreneurs and founders, and has experience working as a Private Equity Analyst at Emerald Square Ventures, a search fund founded by two Wharton MBA graduates. Sam spent his last summer interning at Morgan Stanley in their Wealth Management division. In his free time, he enjoys playing lacrosse, DJing, and watching the Green Bay Packers.",
-      image: "/images/members/sam-elkin.jpg",
+      image: "/images/members/sam-elkin.png",
       imagePosition: "center 40%"
     },
     {
