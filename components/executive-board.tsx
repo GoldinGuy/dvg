@@ -13,7 +13,7 @@ export function ExecutiveBoard() {
     {
       name: "Nate Goldin",
       title: "Founder & President",
-      bio: "Nate Goldin is a sophomore from Palm Beach Gardens, FL, majoring in Public Policy with a minor in Music and certificate in Markets and Management. Nate has spent his summers working in Venture Capital and Private Wealth Management, and also has experience as an economic research analyst. Outside of DVG, he is involved in Bass Connections, the Fed Challenge Club, and the Duke Symphony Orchestra. In his free time, Nate enjoys playing golf and watching Miami sports.",
+      bio: "Nate Goldin is a sophomore from Palm Beach Gardens, FL, majoring in Public Policy with a minor in Music and certificate in Markets and Management. Nate is deeply interested in the intersection between entrepreneurship and finance, and has interned in Venture Capital at Techstars NYC and Private Wealth Management at Fidelis Capital. Outside of DVG, he is involved in Bass Connections, the Fed Challenge Club, and the Duke Symphony Orchestra. In his free time, Nate enjoys playing golf and watching Miami sports.",
       image: "/images/members/nathan-goldin.jpg",
       imagePosition: "center 35%"
     },
