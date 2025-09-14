@@ -21,8 +21,8 @@ export function ProgramsSchedule() {
   ]
 
   return (
-    <section className="py-20">
-      <div className="container">
+    <section className="pb-20 bg-muted/30">
+      {/* <div className="container">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide text-primary-900 dark:text-white">
             Fall 2025 Schedule
@@ -57,9 +57,9 @@ export function ProgramsSchedule() {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
 
-          <div className="mt-12 text-center">
+          <div className="text-center">
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center">
                 <Users className="h-8 w-8 text-primary-600 mx-auto mb-3" />
@@ -87,8 +87,8 @@ export function ProgramsSchedule() {
               supporting startups—while connecting directly with real investors and founders.
             </p>
           </div>
-        </div>
-      </div>
+        {/* </div>
+      </div> */}
     </section>
   )
 }

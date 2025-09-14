@@ -18,6 +18,7 @@ export default function ProgramsPage() {
       </section>
 
       <ProgramsOverview />
+      <ProgramsSchedule />
       <Footer />
     </>
   )

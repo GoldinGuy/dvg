@@ -5,7 +5,7 @@ export function FAQSection() {
     {
       question: "How many new members are accepted each semester?",
       answer:
-        "We accept 20–25 highly motivated students per recruitment cycle. Admission is competitive and based on demonstrated interest, intellectual curiosity, and potential for contribution.",
+        "We accept 25–30 highly motivated students per recruitment cycle. Admission is competitive and based on demonstrated interest, intellectual curiosity, and potential for contribution.",
     },
     {
       question: "What is the time commitment for DVG members?",
@@ -34,7 +34,7 @@ export function FAQSection() {
     {
       question: "When does recruitment take place?",
       answer:
-        "We recruit once a year at the beginning of the fall semester. Follow @dukeventure on Instagram for updates.",
+        "We recruit twice a year at the beginning of the fall and spring semesters. Follow @dukeventure on Instagram for updates.",
     },
     {
       question: "What is the interview like?",
