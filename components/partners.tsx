@@ -64,7 +64,7 @@ export function Partners() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12 items-center max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-12 items-center max-w-7xl mx-auto">
           {partners.map((partner, index) => (
             <div key={index} className="flex items-center justify-center">
               <div className="relative w-full h-20 flex items-center justify-center">
