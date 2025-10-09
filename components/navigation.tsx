@@ -11,8 +11,8 @@ export function Navigation() {
 
   const navItems = [
     { name: "Home", href: "/" },
+    { name: "Team", href: "/team" },
     { name: "Programs", href: "/programs" },
-    { name: "Members", href: "/members" },
     { name: "Recruitment", href: "/recruitment" },
     { name: "Apply", href: "https://forms.gle/k6MzpRQdQm7cjJFz9" },
   ]
