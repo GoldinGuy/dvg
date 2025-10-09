@@ -11,8 +11,8 @@ export function Partners() {
       logo: "/images/partners/duke-cap-partners.jpg",
     },
     {
-      name: "Plymouth Growth",
-      logo: "/images/partners/plymouth-growth.jpg",
+      name: "Straylight Capital",
+      logo: "/images/partners/straylight.jpeg",
     },
     {
       name: "Techstars",
@@ -22,6 +22,34 @@ export function Partners() {
       name: "Red Bike Capital",
       logo: "/images/partners/red-bike-capital.jpg",
     },
+    {
+      name: "Maven Ventures",
+      logo: "/images/partners/maven-ventures.jpg",
+    },
+    {
+      name: "Camber Creek",
+      logo: "/images/partners/camber-creek.jpg",
+    },
+    {
+      name: "Mudita Venture Partners",
+      logo: "/images/partners/mudita.png",
+    },
+    {
+      name: "Tactile Ventures",
+      logo: "/images/partners/tactile.png",
+    },
+    {
+      name: "Cleveland Avenue",
+      logo: "/images/partners/cleveland-avenue.jpg",
+    },
+    {
+      name: "Cofounders Capital",
+      logo: "/images/partners/cofounders-capital.jpg",
+    },
+    {
+      name: "HOF Capital",
+      logo: "/images/partners/hof.png",
+    }
   ]
 
   return (
