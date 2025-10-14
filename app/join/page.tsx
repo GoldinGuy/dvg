@@ -29,10 +29,7 @@ export default function RecruitmentPage() {
 
       <RecruitmentSection />
       <section
-        className="py-20"
-        style={{
-          background: "linear-gradient(45deg, #e3f2fd 0%, rgba(241, 245, 249, 0.3) 100%)"
-        }}
+        className="py-20 bg-primary-100"
       >
         <div className="container">
           <div className="items-center">

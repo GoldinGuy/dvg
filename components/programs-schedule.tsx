@@ -81,11 +81,6 @@ export function ProgramsSchedule() {
                 <p className="text-sm font-light text-muted-foreground">Direct access to real investors and founders</p>
               </div>
             </div>
-
-            <p className="text-lg font-light text-muted-foreground tracking-wide">
-              Each session is designed to help our members build meaningful skills in sourcing, evaluating, and
-              supporting startups—while connecting directly with real investors and founders.
-            </p>
           </div>
         {/* </div>
       </div> */}

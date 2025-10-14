@@ -53,7 +53,8 @@ export function RecruitmentSection() {
   ]
 
   return (
-    <section className="py-10 bg-muted/30">
+    <section className="py-10 bg-muted/50">
+      <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-center">Frequently Asked Questions</h2>
       <div className="container max-w-4xl">
         <Accordion type="single" collapsible className="space-y-4">
           {allFAQs.map((faq, index) => (
