@@ -16,7 +16,7 @@ export function ProgramsOverview() {
       ],
       details: [
         "All newly admitted members begin as Investment Analysts and participate in a rigorous 6–8 week training program co-developed with Duke Innovation & Entrepreneurship (I&E).",
-        "Each semester, Investment Analysts will be placed on project teams to complete due diligence and market research for partner VC firms.",
+        "Each semester, Investment Analysts will be placed on project teams to complete work projects (due diligence, market research, etc.) for partner VC firms.",
       ],
     },
   ]
@@ -79,9 +79,9 @@ export function ProgramsOverview() {
                 <div className="space-y-6 mt-5 text-lg leading-relaxed font-light tracking-wide">
                   {program.details.map((detail, detailIndex) => (
                     <p key={detailIndex} className="relative pl-14">
-                      <span className="absolute left-0 top-0 flex items-center justify-center w-10 h-10 rounded-full bg-primary-50 text-primary-700 font-medium shadow-sm">
-                        {detailIndex + 1}
-                      </span>
+                        <span className="absolute left-0 top-0 flex items-center justify-center w-10 rounded-full text-primary-700 font-medium shadow-sm">
+                        –
+                        </span>
                       {detail}
                     </p>
                   ))}
