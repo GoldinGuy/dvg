@@ -3,28 +3,22 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export function RecruitmentSection() {
   const allFAQs = [
     {
-      question: "How many new members are accepted each semester?",
-      answer:
-        "We accept 20–25 highly motivated students per recruitment cycle. Admission is competitive and based on demonstrated interest, intellectual curiosity, and potential for contribution.",
-    },
-    {
-      question: "What is the time commitment for DVG members?",
-      answer:
-        "Members can expect to commit 2-3 hours per week through workshops, meetings, startup diligence, and events. Time commitment may increase during high-engagement periods. Attendance is mandatory for all case competitions and speaker events.",
+      question: "What does DVG look for in an applicant?",
+      answer: "DVG seeks applicants who are motivated, driven, and share a passion for startups and VC. Admission is competitive and based on demonstrated interest, intellectual curiosity, and potential for contribution. We want to know who you are, why you are interested in DVG, and what makes you a qualified candidate."
     },
     {
       question: "What distinguishes DVG from other entrepreneurship clubs?",
       answer:
-        "DVG is the only undergraduate organization at Duke focused exclusively on the business side of entrepreneurship. With hands-on startup evaluation, structured VC education, and real connections to VC firms, DVG delivers an elite and immersive experience rarely available at the undergraduate level.",
+        "DVG is the only undergraduate organization at Duke focused exclusively on the business side of entrepreneurship. With hands-on diligence work, structured VC education, and real exposure to startups, DVG delivers an elite and immersive experience rarely available at the undergraduate level.",
     },
     {
       question: "Can I reapply if I don't get accepted the first time?",
-      answer: "Absolutely. We strongly encourage interested students to reapply in the spring cycle.",
+      answer: "Absolutely. We strongly encourage interested students to reapply in the next available cycle.",
     },
     {
       question: "Do members receive mentorship?",
       answer:
-        "Yes. Each new member (trainee) is paired with an upperclassman mentor. In addition, members benefit from direct engagement with VC professionals, founders, and Duke alumni in the startup ecosystem.",
+        "Yes. Each new investment analyst is paired with an upperclassman mentor. In addition, members benefit from direct engagement with VC professionals, founders, and Duke alumni in the startup ecosystem.",
     },
     {
       question: "How does the recruitment process work?",
@@ -34,12 +28,12 @@ export function RecruitmentSection() {
     {
       question: "When does recruitment take place?",
       answer:
-        "We recruit once a year at the beginning of the fall semester. Follow @dukeventure on Instagram for updates.",
+        "We recruit twice a year at the beginning of each semester. Follow @dukeventure on Instagram for updates.",
     },
     {
       question: "What is the interview like?",
       answer:
-        "The interview will include behavioral questions to understand your background, motivations, and interpersonal skills. You will also be asked a logic or market-based question to assess your analytical thinking and problem-solving under ambiguity.",
+        "The interview will include behavioral questions to understand your background, motivations, and interpersonal skills. You will also be asked a logic or market-based question to assess your analytical thinking and problem-solving.",
     },
     {
       question: "Are there any eligibility requirements?",
@@ -47,19 +41,9 @@ export function RecruitmentSection() {
         "Yes. Recruitment is open only to first-year and second-year students at Duke. We welcome applicants from all majors and backgrounds—no prior experience in venture capital or entrepreneurship is required.",
     },
     {
-      question: "Where can I learn more about DVG?",
-      answer:
-        "Visit our website at www.dukeventuregroup.com and follow us on Instagram (@dukeventure) for real-time updates. For any additional inquiries, feel free to reach out via our contact page or social channels.",
-    },
-    {
-      question: "How does Analyst Education work?",
-      answer:
-        "All newly admitted members begin as Analyst Trainees and participate in a rigorous 6–8 week education program co-developed with Duke Innovation & Entrepreneurship (I&E). This curriculum combines hands-on workshops, expert-led teach-ins, and case-based learning to build core competencies in: Startup sourcing and evaluation, Investment thesis construction, Market research and due diligence fundamentals, and Communication of insights and recommendations. The program culminates in an internal investment competition, where teams pitch their final theses to a panel of judges. The winning team earns the opportunity to represent Duke at the Venture Capital Investment Competition (VCIC), hosted nationally at UNC. Throughout the semester, trainees also engage in curated speaker series, simulations, and private events with founders, investors, and alumni in the venture ecosystem—gaining insights directly from professionals in the field.",
-    },
-    {
       question: "What leadership opportunities exist within DVG?",
       answer:
-        "After completing analyst education, members become Venture Associates and are eligible for deeper involvement. Our leadership structure includes: President – Oversees all operations and external relations, Executive Vice Presidents – Support operations and strategic planning, Vice Presidents – Lead dedicated verticals including Education, Tech, Membership, Finance, and Recruitment. These roles offer Fellows the opportunity to shape the organization's direction, plan events, manage partner relations, and mentor new analysts.",
+        "After completing one semester as an investment analyst, members can apply to become project directors or executive members. PD’s are responsible for sourcing diligence projects, managing relationships with the partner firm, and overseeing analyst work. Executive roles include all VP positions and President.",
     },
     {
       question: "How do I apply to be a VP?",
@@ -69,7 +53,7 @@ export function RecruitmentSection() {
   ]
 
   return (
-    <section className="py-20 bg-muted/30">
+    <section className="py-10 bg-muted/30">
       <div className="container max-w-4xl">
         <Accordion type="single" collapsible className="space-y-4">
           {allFAQs.map((faq, index) => (

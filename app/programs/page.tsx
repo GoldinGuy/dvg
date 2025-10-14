@@ -10,8 +10,7 @@ export default function ProgramsPage() {
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-extralight mb-6 tracking-wider">Our Programs</h1>
             <p className="text-lg font-light tracking-wide leading-relaxed opacity-90 max-w-3xl mx-auto">
-              Comprehensive programs designed to provide real-world venture capital experience through rigorous
-              education, hands-on startup evaluation, and direct industry connections.
+              An immersive program offering real-world venture capital experience through in-depth coursework, hands-on startup due diligence, and direct engagement with industry professionals and active investment opportunities.
             </p>
           </div>
         </div>

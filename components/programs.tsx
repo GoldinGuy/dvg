@@ -32,7 +32,7 @@ export function Programs() {
           <h2 className="text-3xl md:text-4xl font-light mb-4 tracking-wide text-white">Our Programs</h2>
         </div>
 
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-6">
           {programs.map((program, index) => {
             const Icon = program.icon;
             return (
