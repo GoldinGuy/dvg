@@ -39,10 +39,6 @@ export function Partners() {
       logo: "/images/partners/tactile.png",
     },
     {
-      name: "Cleveland Avenue",
-      logo: "/images/partners/cleveland-avenue.jpg",
-    },
-    {
       name: "Cofounders Capital",
       logo: "/images/partners/cofounders-capital.jpg",
     },
