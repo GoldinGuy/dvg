@@ -33,15 +33,15 @@ export function ExecutiveBoard() {
       image: "/images/members/terrence-ware.jpg",
     },
     {
-      name: "Sami Moudarres",
-      title: "Vice President of Administration",
-      image: "/images/members/sami-moudarres.jpg",
-    },
-    {
       name: "Akshara Krishna",
       title: "Vice President of Professional",
       image: "/images/members/akshara-krishna.jpg",
       imagePosition: "center 63%",
+    },
+    {
+      name: "Sami Moudarres",
+      title: "Vice President of Administration",
+      image: "/images/members/sami-moudarres.jpg",
     },
     {
       name: "Alexa Jacob",
