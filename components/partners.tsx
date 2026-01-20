@@ -42,10 +42,14 @@ export function Partners() {
       name: "Cofounders Capital",
       logo: "/images/partners/cofounders-capital.jpg",
     },
-    // {
-    //   name: "HOF Capital",
-    //   logo: "/images/partners/hof.png",
-    // }
+    {
+      name: "HOF Capital",
+      logo: "/images/partners/hof.png",
+    },
+    {
+      name: "Real Sports",
+      logo: "/images/partners/real-sports.jpeg"
+    }
   ]
 
   return (

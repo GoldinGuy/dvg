@@ -1,3 +1,5 @@
+'use client'
+
 import { RecruitmentSection } from "@/components/recruitment-section"
 import { Footer } from "@/components/footer"
 
@@ -22,7 +24,15 @@ export default function RecruitmentPage() {
       <section className="py-20">
         <div className="container w-100">
           <div className="items-center text-center text-bold text-3xl">
-            <h1>Duke Venture Group Fall 2025 applications are closed</h1>
+            <h1>Duke Venture Group Spring 2026 applications are now open</h1>
+            <div className="text-center mt-6">
+              <button
+                className="text-bold bg-primary-900 text-white px-8 py-3 rounded-lg text-lg hover:bg-primary-800 transition-colors duration-200"
+                onClick={() => window.open('https://forms.gle/csCRDHeieGtEWnSh8', '_blank')}
+              >
+                <h1>Apply Here</h1>
+              </button>
+            </div>
           </div>
         </div>
       </section>

@@ -44,7 +44,7 @@ export function FAQSection() {
     {
       question: "Are there any eligibility requirements?",
       answer:
-        "Yes. Recruitment is open only to first-year and second-year students at Duke. We welcome applicants from all majors and backgrounds—no prior experience in venture capital or entrepreneurship is required.",
+        "Yes. Recruitment is open only to first-year students at Duke. We welcome applicants from all majors and backgrounds—no prior experience in venture capital or entrepreneurship is required.",
     },
     {
       question: "Where can I learn more about DVG?",
@@ -65,12 +65,7 @@ export function FAQSection() {
     {
       question: "What leadership opportunities exist within DVG?",
       answer:
-        "After completing analyst education, members become Venture Associates and are eligible for deeper involvement. Our leadership structure includes: President – Oversees all operations and external relations, Executive Vice Presidents – Support operations and strategic planning, Vice Presidents – Lead dedicated verticals including Education, Tech, Membership, Finance, and Recruitment. These roles offer Fellows the opportunity to shape the organization's direction, plan events, manage partner relations, and mentor new analysts.",
-    },
-    {
-      question: "How do I apply to be a VP?",
-      answer:
-        "At the end of each academic year, returning Fellows may apply for Vice President roles. Applications are followed by a membership-wide election (excluding current trainees), and selected VPs serve a one-year term.",
+        "After completing one semester as an investment analyst, members can apply to become executive members. Exective board members are responsible for directing all club programming and managing all partnerships.",
     },
   ]
 
