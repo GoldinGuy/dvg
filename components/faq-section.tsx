@@ -1,5 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-
+// added comment
 export function FAQSection() {
   const recruitmentFAQs = [
     {
