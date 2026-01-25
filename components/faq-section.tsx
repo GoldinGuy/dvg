@@ -10,7 +10,7 @@ export function FAQSection() {
     {
       question: "What is the time commitment for DVG members?",
       answer:
-        "Members can expect to commit 2-3 hours per week through workshops, meetings, startup diligence, and events. Time commitment may increase during high-engagement periods. Attendance is mandatory for all case competitions and speaker events.",
+        "Members should expect to commit 2-3 hours per week through workshops, meetings, startup diligence, and events. Time commitment may increase during high-engagement periods. Attendance is mandatory for all case competitions and speaker events.",
     },
     {
       question: "What distinguishes DVG from other entrepreneurship clubs?",
